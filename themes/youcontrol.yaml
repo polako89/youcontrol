@@ -1,14 +1,14 @@
 youcontrol-dark:
 #Roxo Marca = #8512D3
   # Global
-  background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/youcontrol/bkg1.jpg')" 
-  lovelace-background: var(--background-image)
-  primary-color: "#C9B4D7"  #FF9F09 from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  #B6B6C1 light gray (icons on left menu)
-  primary-background-color: "#2c2c2e"  #2c2c2e systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
-  divider-color: 98989d from Apple systemGray dark mode
-  accent-color: rgba(255, 159, 9, 1)
+  background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/youcontrol/bkg1.jpg')"   # 
+  lovelace-background: var(--background-image)                                          #
+  primary-color: "#C9B4D7"  #FF9F09 from Apple systemOrange dark mode                   #
+  light-primary-color: "#B6B6C1"  #B6B6C1 light gray (icons on left menu)               #
+  primary-background-color: "#2c2c2e"  #2c2c2e systemGray5 dark mode                    #
+  secondary-background-color: #rgba(25, 25, 25, 0.7)                                    #Cor secundaria backgroung
+  divider-color: "#545454"                                                              #Cor de divisor menu lateral e superior com dashboard
+  accent-color: "#2c2c2e" #rgba(255, 159, 9, 1)
   
   # Text
   primary-font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
@@ -36,19 +36,20 @@ youcontrol-dark:
   # States and Badges
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)
+  paper-item-icon-color: 'var(--text-light-color)'                              # Off
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)                           # On
   state-icon-unavailable-color: var(--disabled-text-color)
   
   # Sliders
-  paper-slider-knob-color: "#FFFFFF"
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-knob-color: "#FFFFFF"                                            # Knob On
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)                 # Knob Off
   paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: "#0984ff"  # from Apple systemBlue dark mode
+  paper-slider-active-color: "#0984ff"                                          # Line On
   paper-slider-secondary-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: rgba(255, 255, 255, 0.5)
+  paper-slider-container-color: rgba(255, 255, 255, 0.5)                        # Line Off
   paper-slider-font-color: "#000"
   ha-slider-background: none !important
-  
+
   # Labels
   label-badge-background-color: rgba(255, 159, 9, 0.7) 
   label-badge-text-color: "#F1F1F1"
@@ -75,9 +76,10 @@ youcontrol-dark:
   table-row-alternative-background-color: var(--secondary-background-color)
   
   # Switches
-  switch-checked-color: "#F1F1F1"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
-  switch-checked-track-color: "#8512D3"  # from Apple systemGreen dark mode
-  switch-checked-button-color: "#8512D3"
+  switch-checked-button-color: '#8512D3'                                          # Knob On
+  switch-unchecked-button-color: '#e8e8ea'                                        # Knob Off
+  switch-checked-track-color: '#8512D3'                                           # Background On
+  switch-unchecked-track-color: '#e8e8ea'                                         # Background Off
   
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
@@ -86,6 +88,8 @@ youcontrol-dark:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(44, 44, 46, 0.8) #Cor barra superior (menus)
   markdown-code-background-color: "#464646"
+
+
   
   # Custom
   mcg-title-letter-spacing: .15em
@@ -127,6 +131,3 @@ youcontrol-dark:
   # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
   # input-hover-line-color: var(--light-primary-color)
-
-
-#########################################################
