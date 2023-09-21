@@ -1,7 +1,8 @@
 youcontrol-dark: #by G@briel
 #Roxo Marca = #8512D3
+  
   # Global
-  background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/youcontrol/bkg1.jpg')" 
+  background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/youcontrol-dark/bkg1.jpg')" 
   lovelace-background: var(--background-image)
   primary-color: "#C9B4D7"  #FF9F09 from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  #B6B6C1 light gray (icons on left menu)
