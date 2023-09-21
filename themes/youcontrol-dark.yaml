@@ -1,5 +1,6 @@
-dark_teal:  
-
+youcontrol:  
+#Roxo #8512D3
+#Cinza marca #262626 
   # Fonts
   primary-font-family: 'Raleway,sans-serif'
   paper-font-common-base_-_font-family: "var(--primary-font-family)"
@@ -39,30 +40,36 @@ dark_teal:
   codemirror-property: 'var(--accent-color)'
 
   # Main Colors
-  app-header-background-color: '#3b4049' 
-  accent-color: '#00b59d'
+  app-header-background-color: '#41464f' 
+  accent-color: '#C3C3C3'
   accent-medium-color: 'var(--accent-color)'
 
   # Background
-  background-color: '#3b4049' 
-  primary-background-color: 'var(--background-color)'
-  background-color-2: '#383e47' 
-  secondary-background-color: 'var(--background-color-2)'
-  markdown-code-background-color: 'var(--background-color)'
+  lovelace-background: "center / cover no-repeat fixed url('/hacsfiles/themes/youcontrol/bkg1.jpg')"
+  background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/youcontrol/bkg1.jpg')"
+  lovelace-background: var(--background-image)
+  primary-color: "#ff9409"  # from Apple systemOrange light mode
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
+  primary-background-color: "#e5e5ea"  # systemGray5 light mode
+  secondary-background-color: rgba(65, 70, 79, 1)
+  divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
+  accent-color: rgba(255, 159, 9, 1)
 
   # Card
-  card-background-color: 'var(--ha-card-background)'
-  ha-card-background: 'rgba(67, 73, 82, 1)'
-  ha-card-box-shadow: "0px 0px 0px 0px"
-  ha-card-border-radius: "3px"
-  border-color: '#333333' 
+  card-background-color: var(--secondary-background-color)  # Unused entities table background
+  paper-listbox-background-color: var(--primary-background-color)
+  ha-card-border-radius: 20px
+  ha-card-background: rgba(245, 245, 245, 0.2)
+  paper-card-background-color: var(--ha-card-background)
+  ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357 
 
   # Icons
   paper-item-icon-color: 'var(--text-color)'    
   paper-item-icon-active-color: 'var(--accent-color)'   
   
   # Left Menu
-  paper-listbox-background-color: 'rgba(69, 74, 83, 1)'
+  #paper-listbox-background-color: 'rgba(69, 74, 83, 1)'
+  paper-listbox-background-color: '#41464f'
   sidebar-background-color: 'var(--paper-listbox-background-color)'
   sidebar-icon-color: 'var(--secondary-text-color)'
   sidebar-selected-icon-color: 'var(--accent-color)'
@@ -77,17 +84,18 @@ dark_teal:
   paper-slider-container-color: 'var(--ha-card-background)'
 
   # Toggle:
-  paper-toggle-button-checked-bar-color: 'var(--accent-color)'
+  paper-toggle-button-checked-bar-color: '#8512D3'
   mdc-theme-primary: 'var(--accent-color)' 
 
   # Switch
   switch-unchecked-color: 'var(--text-medium-color)'
-  switch-checked-button-color: 'var(--accent-color)'
+  switch-checked-button-color: '#8512D3'
   switch-unchecked-track-color: 'var(--border-color)'
-  switch-checked-track-color: 'var(--border-color)'
+  switch-checked-track-color: '#8512D3'
 
   # Radio Button
-  paper-radio-button-checked-color: 'var(--accent-color)'
+  #paper-radio-button-checked-color: 'var(--accent-color)'
+  paper-radio-button-checked-color: '#8512D3'
 
   # Popups
   more-info-header-background: 'var(--secondary-background-color)'
