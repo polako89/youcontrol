@@ -127,6 +127,3 @@ youcontrol-dark:
   # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
   # input-hover-line-color: var(--light-primary-color)
-
-
-#########################################################
