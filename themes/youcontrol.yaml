@@ -40,7 +40,7 @@ youcontrol:
 
   # Main Colors
   app-header-background-color: '#1F1B20' 
-  accent-color: '#FFFFFF'
+  accent-color: '#8212CE'
   accent-medium-color: 'var(--accent-color)'
 
   # Background
