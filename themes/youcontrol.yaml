@@ -6,7 +6,7 @@ youcontrol-dark:
   primary-color: "#C9B4D7"  #FF9F09 from Apple systemOrange dark mode                   #
   light-primary-color: "#B6B6C1"  #B6B6C1 light gray (icons on left menu)               #
   primary-background-color: "#2c2c2e"  #2c2c2e systemGray5 dark mode                    #
-  secondary-background-color: #rgba(25, 25, 25, 0.7)                                    #Cor secundaria backgroung
+  secondary-background-color: rgba(25, 25, 25, 0.7)                                    #Cor secundaria backgroung
   divider-color: "#545454"                                                              #Cor de divisor menu lateral e superior com dashboard
   accent-color: "#8512D3"        #rgba(255, 159, 9, 1) (cor laranja)                    #Notificações e linhas dos gráficos de temperatura      
   
